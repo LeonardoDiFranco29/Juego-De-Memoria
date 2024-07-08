@@ -12,18 +12,18 @@ let secondCard = false;
 
 //Items array
 const items = [
-  { name: "bee", image: "curry.PNG" },
-  { name: "crocodile", image: "hali.PNG" },
-  { name: "macaw", image: "antman.PNG" },
-  { name: "gorilla", image: "lebron.PNG" },
-  { name: "tiger", image: "kawhi.PNG" },
-  { name: "monkey", image: "jrue.PNG" },
-  { name: "chameleon", image: "tatum.PNG" },
-  { name: "piranha", image: "bam.PNG" },
-  { name: "anaconda", image: "embid.PNG" },
-  { name: "sloth", image: "kd.PNG" },
-  { name: "cockatoo", image: "davis.PNG" },
-  { name: "toucan", image: "booker.PNG" },
+  { name: "bee", image: "bee.png" },
+  { name: "crocodile", image: "crocodile.png" },
+  { name: "macaw", image: "macaw.png" },
+  { name: "gorilla", image: "gorilla.png" },
+  { name: "tiger", image: "tiger.png" },
+  { name: "monkey", image: "monkey.png" },
+  { name: "chameleon", image: "chameleon.png" },
+  { name: "piranha", image: "piranha.png" },
+  { name: "anaconda", image: "anaconda.png" },
+  { name: "sloth", image: "sloth.png" },
+  { name: "cockatoo", image: "cockatoo.png" },
+  { name: "toucan", image: "toucan.png" },
 ];
 
 //Initial Time
@@ -44,13 +44,13 @@ const timeGenerator = () => {
   //format time before displaying
   let secondsValue = seconds < 10 ? `0${seconds}` : seconds;
   let minutesValue = minutes < 10 ? `0${minutes}` : minutes;
-  timeValue.innerHTML = `<span>Tiempo:</span>${minutesValue}:${secondsValue}`;
+  timeValue.innerHTML = `<span>Time:</span>${minutesValue}:${secondsValue}`;
 };
 
 //For calculating moves
 const movesCounter = () => {
   movesCount += 1;
-  moves.innerHTML = `<span>Movimientos:</span>${movesCount}`;
+  moves.innerHTML = `<span>Moves:</span>${movesCount}`;
 };
 
 //Pick random objects from the items array
@@ -124,8 +124,8 @@ const matrixGenerator = (cardValues, size = 4) => {
             winCount += 1;
             //check if winCount ==half of cardValues
             if (winCount == Math.floor(cardValues.length / 2)) {
-              result.innerHTML = `<h2>Ganaste</h2>
-            <h4>Movimientos: ${movesCount}</h4>`;
+              result.innerHTML = `<h2>You Won</h2>
+            <h4>Moves: ${movesCount}</h4>`;
               stopGame();
             }
           } else {
@@ -157,7 +157,7 @@ startButton.addEventListener("click", () => {
   //Start timer
   interval = setInterval(timeGenerator, 1000);
   //initial moves
-  moves.innerHTML = `<span>Movimientos:</span> ${movesCount}`;
+  moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
   initializer();
 });
 
