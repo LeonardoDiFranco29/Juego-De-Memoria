@@ -14,7 +14,7 @@ let secondCard = false;
 const items = [
   { name: "embid", image: "embid.PNG" },
   { name: "tatum", image: "tatum.png" },
-  { name: "macaw", image: "macaw.png" },
+  { name: "antman", image: "antman.png" },
   { name: "kd", image: "kd.png" },
   { name: "hali", image: "hali.png" },
   { name: "lebron", image: "lebron.png" },
