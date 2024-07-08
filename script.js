@@ -12,18 +12,18 @@ let secondCard = false;
 
 //Items array
 const items = [
-  { name: "bee", image: "bee.png" },
-  { name: "crocodile", image: "crocodile.png" },
-  { name: "macaw", image: "macaw.png" },
-  { name: "gorilla", image: "gorilla.png" },
+  { name: "be", image: "curry.jpg" },
+  { name: "crodile", image: "crocodile.png" },
+  { name: "maw", image: "macaw.png" },
+  { name: "golla", image: "gorilla.png" },
   { name: "tiger", image: "tiger.png" },
-  { name: "monkey", image: "monkey.png" },
-  { name: "chameleon", image: "chameleon.png" },
-  { name: "piranha", image: "piranha.png" },
-  { name: "anaconda", image: "anaconda.png" },
-  { name: "sloth", image: "sloth.png" },
-  { name: "cockatoo", image: "cockatoo.png" },
-  { name: "toucan", image: "toucan.png" },
+  { name: "money", image: "monkey.png" },
+  { name: "chaeleon", image: "chameleon.png" },
+  { name: "piraha", image: "piranha.png" },
+  { name: "anconda", image: "anaconda.png" },
+  { name: "slth", image: "sloth.png" },
+  { name: "cokatoo", image: "cockatoo.png" },
+  { name: "tocan", image: "toucan.png" },
 ];
 
 //Initial Time
