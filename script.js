@@ -12,7 +12,7 @@ let secondCard = false;
 
 //Items array
 const items = [
-  { name: "embid", image: "embid.PNG" },
+  { name: "embid", image: "bam.png" },
   { name: "tatum", image: "tatum.png" },
   { name: "antman", image: "antman.png" },
   { name: "kd", image: "kd.png" },
@@ -21,7 +21,7 @@ const items = [
   { name: "jrue", image: "jrue.png" },
   { name: "davis", image: "davis.png" },
   { name: "booker", image: "booker.png" },
-  { name: "bam", image: "bam.png" },
+  { name: "bam", image: "embid.PNG" },
   { name: "kawhi", image: "kawhi.png" },
   { name: "curry", image: "curry.png" },
 ];
