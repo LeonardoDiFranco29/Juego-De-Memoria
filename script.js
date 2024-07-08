@@ -13,10 +13,10 @@ let secondCard = false;
 //Items array
 const items = [
   { name: "be", image: "curry.jpg" },
-  { name: "crodile", image: "crocodile.png" },
-  { name: "maw", image: "macaw.png" },
-  { name: "golla", image: "gorilla.png" },
-  { name: "tiger", image: "tiger.png" },
+  { name: "crodile", image: "curry.png" },
+  { name: "maw", image: "curry.png" },
+  { name: "golla", image: "curry.png" },
+  { name: "tiger", image: "curry.png" },
   { name: "money", image: "monkey.png" },
   { name: "chaeleon", image: "chameleon.png" },
   { name: "piraha", image: "piranha.png" },
