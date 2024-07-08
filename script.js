@@ -20,9 +20,9 @@ const items = [
   { name: "lebron", image: "lebron.png" },
   { name: "jrue", image: "jrue.png" },
   { name: "davis", image: "davis.png" },
-  { name: "anaconda", image: "anaconda.png" },
-  { name: "sloth", image: "sloth.png" },
-  { name: "cockatoo", image: "cockatoo.png" },
+  { name: "booker", image: "booker.png" },
+  { name: "bam", image: "bam.png" },
+  { name: "kawhi", image: "kawhi.png" },
   { name: "curry", image: "curry.png" },
 ];
 
